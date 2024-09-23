@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .button-border {
+    border: 2px solid #6b7280 !important; /* #6b7280 is the hex code for gray-500 */
+  }
+}
