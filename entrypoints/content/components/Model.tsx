@@ -22,6 +22,8 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, onInsert }) => {
         modalRef.current &&
         !modalRef.current.contains(event.target as Node)
       ) {
+        setResponse("");
+        SetPrompt("");
         onClose();
       }
     };
@@ -55,7 +57,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, onInsert }) => {
       <div ref={modalRef} className="bg-white rounded-lg w-[455px] h-auto mr-11 p-6">
         {response && (
           <div className="flex flex-col gap-y-4 mb-2 h-auto">
-            <div className="self-end bg-gray-100 w-[50%] text-gray-500 rounded-lg text-wrap p-2 font-normal">
+            <div className="self-end bg-gray-200 w-[55%] text-gray-500 rounded-lg text-wrap p-2 font-normal text-2xl">
              {command}
             </div>
             <div className="bg-[#DBEAFE] text-gray-500 p-4 w-[70%] rounded mb-4">
