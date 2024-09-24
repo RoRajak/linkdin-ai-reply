@@ -31,5 +31,5 @@ This is a simple Chrome extension built using React and TypeScript.
 
 - **React**: UI library
 - **TypeScript**: Strongly typed JavaScript
-- **Webpack**: Module bundler for building the extension
+- **Webpack**: WXT
 
