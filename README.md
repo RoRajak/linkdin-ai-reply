@@ -2,8 +2,7 @@
 
 This is a simple Chrome extension built using React and TypeScript.
 
-[Watch the video](./assets/AI-reply.mp4)
-
+[Watch the video](https://vimeo.com/1012284393)
 
 ## Installation
 
